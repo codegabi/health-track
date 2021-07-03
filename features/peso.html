@@ -1,0 +1,52 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Health Track</title>
+    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Health Track</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../menu-principal.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="peso.html">Controle de Peso</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="atividade.html">Controle de Atividade Física</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="refeicoes.html">Controle de Refeições</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pressao.html">Controle de Pressão Arterial</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <a class="nav-link" href="../index.html">Sair</a>
+            </span>
+          </div>
+        </div>
+      </nav>
+      <form class="container-fluid">
+        <div class="mb-3">
+            <label for="peso" class="form-label">Peso (kg)</label>
+            <input type="text" class="form-control" id="peso" placeholder="75,5">
+        </div>
+        <div class="mb-3">
+            <label for="dataPeso" class="form-label">Data</label>
+            <input type="date" class="form-control" id="dataPeso" placeholder="22/10/2020">
+        </div>
+        
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+      </form>
+  </body>
+</html>
